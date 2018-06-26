@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.pack.tests.SubmitForms">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="FillEfcomForms"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pack.tests.SubmitForms -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

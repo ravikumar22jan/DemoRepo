@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example" >
+<parameter name="appURL" value=""/>
+<parameter name="browserType" value="chrome"/>
+  <test name="Sales Force">
+    <classes>
+			<class name="com.pack.tests.SubmitForms"/>
+   </classes>
+  </test>
+</suite>    

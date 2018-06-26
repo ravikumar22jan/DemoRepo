@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Page Object test example]">
+  <parameter name="appURL" value=""/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="Sales Force(failed)">
+    <classes>
+      <class name="com.pack.tests.SubmitForms">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="FillEfcomForms"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pack.tests.SubmitForms -->
+    </classes>
+  </test> <!-- Sales Force(failed) -->
+</suite> <!-- Failed suite [Page Object test example] -->
